@@ -75,7 +75,7 @@ script:
 after_success:
     - ls -al
     - pip install git+git://github.com/codecov/codecov-python.git@wip && codecov
-
+    - coverage xml && head coverage.xml
 
 # This reportedly works around an issue downloading packages from pypi on
 # travis.  Consider removing this after the underlying issue is fixed.
