@@ -129,7 +129,6 @@ resources can be found on the `Tornado wiki
 announced on the `announcements mailing list
 <http://groups.google.com/group/python-tornado-announce>`_.
 
-
 Tornado is one of `Facebook's open source technologies
 <http://developers.facebook.com/opensource/>`_. It is available under
 the `Apache License, Version 2.0
